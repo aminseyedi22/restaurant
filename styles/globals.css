@@ -1,26 +1,15 @@
-html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-repeat: no-repeat;
+  background-image: url(/images/blackboard2.png);
+  background-size: 100% 100%;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@media only screen and (max-width: 600px) {
   body {
-    color: white;
-    background: black;
+    background-image: url(/images/blackboard1.png);
   }
+}
+html {
+  height: 100%;
 }
