@@ -1,10 +1,19 @@
+@font-face {
+  font-family: dastnevis;
+  src: url("/fonts/dastnevis.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: dastnevis !important;
   padding: 0;
   margin: 0;
   background-repeat: no-repeat;
   background-image: url(/images/blackboard2.png);
   background-size: 100% 100%;
 }
+
 @media only screen and (max-width: 600px) {
   body {
     background-image: url(/images/blackboard1.png);

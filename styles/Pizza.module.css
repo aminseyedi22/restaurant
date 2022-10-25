@@ -1,0 +1,30 @@
+.title {
+  font-size: 80px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+.menutext {
+  padding: 0 17% 0 10%;
+  margin-top: 0;
+  font-size: 50px;
+  color: white;
+  direction: rtl;
+  text-align: start;
+}
+.lines {
+  vertical-align: middle;
+}
+.dash {
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  height: 3px;
+}
+.ord {
+  text-align: end;
+}
+.item:hover {
+  text-shadow: 2px 2px gray;
+}
