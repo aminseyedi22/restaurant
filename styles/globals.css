@@ -22,3 +22,7 @@ body {
 html {
   height: 100%;
 }
+/* Firefox */
+* {
+  scrollbar-color: rgba(1, 1, 1, 0) rgba(1, 1, 1, 0);
+}

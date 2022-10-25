@@ -6,11 +6,15 @@
 }
 .menutext {
   padding: 0 17% 0 10%;
-  margin-top: 0;
+  margin-top: -10px;
   font-size: 50px;
   color: white;
   direction: rtl;
   text-align: start;
+}
+.menutext > div {
+  height: 63vh;
+  overflow-y: auto;
 }
 .lines {
   vertical-align: middle;
@@ -23,8 +27,19 @@
   height: 3px;
 }
 .ord {
-  text-align: end;
+  text-align: center;
 }
 .item:hover {
   text-shadow: 2px 2px gray;
+}
+.arrow {
+  width: 150px;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+.preventselect {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
